@@ -14,7 +14,6 @@ body{
     width: 100%;
     height: 100vh;
     background: #123;
-    padding: 40px;
 }
 .hed{
     height: 60%;
@@ -43,10 +42,12 @@ body{
 .text3 .random{
     position: relative;
     padding: 2px;
-    width: 60%;
+    width: 80%;
     overflow: hidden;
     border-radius: 6px;
     margin-top: 5px;
+    max-width:308px;
+    min-width:271px;
 }
 .text3 .random::after{
     content: "";
