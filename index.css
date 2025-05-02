@@ -17,11 +17,12 @@ body{
 }
 .hed{
     height: 60%;
-    width: 70%;
+    width: 100%;
     color: white;
     padding: 10px;
-    min-width: 452px;
-    max-width: 530px;
+}
+.hed .text{
+    align-text:center;
 }
 .hed .text2{
     font-size: 20px;
